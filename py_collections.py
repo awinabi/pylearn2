@@ -6,7 +6,6 @@ from collections import deque
 
 ll = []
 ll.append(1)
-ll.pop()
 ll.extend([4,5,6])
 ll.clear()
 ll.index(4)
@@ -19,7 +18,7 @@ if 4 in ll:
 
 ll.sort() # changes ll
 newll = sorted(ll)
-
+print(newll) # added
 ll.remove("abc") # will raise ValueError if "abc" is not present in the list
 
 # ----- counter -----# 
@@ -27,7 +26,7 @@ ll.remove("abc") # will raise ValueError if "abc" is not present in the list
 # a = "aabbbcccccddaaa"
 a = [1,2,3,4,4,3,2,1,1,1,2,3] 
 my_counter = Counter(a)
-
+print('mycounter is') # added
 print(my_counter)
 print(my_counter.keys())
 print(my_counter.values())

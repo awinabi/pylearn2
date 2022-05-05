@@ -4,13 +4,19 @@
 #
 #    pip-compile requirements/requirements.in
 #
+asgiref==3.5.1
+    # via django
 certifi==2021.10.8
     # via requests
 charset-normalizer==2.0.12
     # via requests
+django==4.0.4
+    # via -r requirements/requirements.in
 idna==3.3
     # via requests
 requests==2.27.1
     # via -r requirements/requirements.in
+sqlparse==0.4.2
+    # via django
 urllib3==1.26.9
     # via requests
